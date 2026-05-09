@@ -22,17 +22,17 @@
     "preversion": "npm run lint"
   },
   "dependencies": {
-    "axios": "^1.8.4",
+    "axios": "^1.16.0",
     "lodash.debounce": "^4.0.8",
     "promise-prompt": "^1.1.1",
     "promise.prototype.finally": "^3.1.8",
-    "protobufjs": "^7.4.0",
+    "protobufjs": "^8.2.0",
     "varint": "^6.0.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.1",
-    "@eslint/js": "^9.23.0",
-    "eslint": "^9.23.0",
-    "globals": "^16.0.0"
+    "@eslint/eslintrc": "^3.3.5",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.3.0",
+    "globals": "^17.6.0"
   }
 }
