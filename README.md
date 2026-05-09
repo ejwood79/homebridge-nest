@@ -181,13 +181,3 @@ By default, options set apply to all devices. To set an option for a specific de
 * Hey Siri, *what's the temperature in the Basement*? (get the temperature from a Nest Temperature Sensor)
 * Hey Siri, *what's the status of my smoke detector*?
 * Hey Siri, *unlock my Front Door*.
-
-# Donate to Support homebridge-nest
-
-homebridge-nest is a labour of love. It's provided under the ISC licence and is completely free to do whatever you want with. But if you'd like to show your appreciation for its continued development, please consider [clicking here to make a small donation](https://paypal.me/adriancable586) or, even better, send me a thank-you card:
-
-Adrian Cable  
-PO Box 370365  
-Montara, CA 94037  
-
-I appreciate your feedback and support in whatever form!
