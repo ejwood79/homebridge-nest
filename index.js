@@ -121,7 +121,12 @@ class NestPlatform {
                         service.characteristics.forEach(characteristic => {
                             characteristic.on('get', callback => callback('error'));
                             characteristic.on('set', (value, callback) => callback('error'));
-                            characteristic.getValue();
+                            // handleGetRequest() replaces getValue(), removed in HAP-NodeJS v1.0 (Homebridge 2)
+                            if (typeof characteristic.handleGetRequest === 'function') {
+                                characteristic.handleGetRequest().catch(() => {});
+                            } else if (typeof characteristic.getValue === 'function') {
+                                characteristic.getValue();
+                            }
                         });
                     });
                 });
