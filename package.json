@@ -1,6 +1,6 @@
 {
   "name": "@ejwood79/homebridge-nest",
-  "version": "4.7.0",
+  "version": "4.7.1",
   "description": "Nest Thermostat, Protect and Lock plug-in for homebridge (community fork)",
   "license": "ISC",
   "author": "Eric Wood <ejwood@gmail.com>",
