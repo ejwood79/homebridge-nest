@@ -1,9 +1,8 @@
-# homebridge-nest
+# @ejwood79/homebridge-nest
 
-[![verified-by-homebridge](https://badgen.net/badge/homebridge/verified/purple)](https://github.com/homebridge/homebridge/wiki/Verified-Plugins)
-[![Discord](https://img.shields.io/discord/432663330281226270?color=728ED5&logo=discord&label=discord)](https://discord.gg/j5WwJTB)
+> Community fork of [`chrisjshull/homebridge-nest`](https://github.com/chrisjshull/homebridge-nest), originally created by Adrian Cable. Maintained here because upstream is inactive. Picks up Homebridge 2 compatibility, dependency updates, and bug fixes.
 
-Nest plug-in for [Homebridge](https://github.com/nfarina/homebridge) using the native Nest API. See what's new in [release 4.6.10](https://github.com/chrisjshull/homebridge-nest/releases/tag/v4.6.10).
+Nest plug-in for [Homebridge](https://github.com/nfarina/homebridge) using the native Nest API.
 
 Integrate your Nest Thermostat, Temperature Sensors, Nest Protect, and Nest x Yale Lock devices into your HomeKit system. Both Nest Accounts (pre-August 2019) and Google Accounts are supported.
 
@@ -19,10 +18,11 @@ If you want a DIY solution, then read on, as homebridge-nest is for you!
 
 # Installation
 
-<!-- 2. Clone (or pull) this repository from github into the same path Homebridge lives (usually `/usr/local/lib/node_modules`). Note: the code currently on GitHub is in beta, and is newer than the latest published version of this package on `npm` -->
 1. Install homebridge using: `npm install -g homebridge`
-2. Install this plug-in using: `npm install -g homebridge-nest`
+2. Install this plug-in using: `npm install -g @ejwood79/homebridge-nest`
 3. Update your configuration file. See example `config.json` snippet below.
+
+The Homebridge platform alias is still `Nest`, so existing `config.json` blocks that worked with the upstream `homebridge-nest` continue to work without changes.
 
 # Configuration
 

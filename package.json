@@ -1,13 +1,21 @@
 {
-  "name": "homebridge-nest",
-  "version": "4.6.10",
-  "description": "Nest Thermostat, Protect and Lock plug-in for homebridge",
+  "name": "@ejwood79/homebridge-nest",
+  "version": "4.7.0",
+  "description": "Nest Thermostat, Protect and Lock plug-in for homebridge (community fork)",
   "license": "ISC",
+  "author": "Eric Wood <ejwood@gmail.com>",
+  "contributors": [
+    "Adrian Cable",
+    "Chris Shull"
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/chrisjshull/homebridge-nest.git"
+    "url": "git+https://github.com/ejwood79/homebridge-nest.git"
   },
-  "homepage": "https://github.com/chrisjshull/homebridge-nest#readme",
+  "homepage": "https://github.com/ejwood79/homebridge-nest#readme",
+  "bugs": {
+    "url": "https://github.com/ejwood79/homebridge-nest/issues"
+  },
   "keywords": [
     "homebridge-plugin",
     "nest"
