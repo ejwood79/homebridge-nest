@@ -21,8 +21,8 @@
     "nest"
   ],
   "engines": {
-    "homebridge": ">=0.2.5 || ^2.0.0-beta.0",
-    "node": ">=7.0.0"
+    "homebridge": "^1.8.0 || ^2.0.0",
+    "node": "^20.19.0 || ^22.13.0 || ^24.0.0"
   },
   "scripts": {
     "lint": "eslint .",
@@ -30,11 +30,11 @@
     "preversion": "npm run lint"
   },
   "dependencies": {
-    "axios": "^1.16.0",
+    "axios": "^1.19.0",
     "lodash.debounce": "^4.0.8",
     "promise-prompt": "^1.1.1",
     "promise.prototype.finally": "^3.1.8",
-    "protobufjs": "^8.2.0",
+    "protobufjs": "^8.7.1",
     "varint": "^6.0.0"
   },
   "devDependencies": {
