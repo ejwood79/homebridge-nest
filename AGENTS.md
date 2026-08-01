@@ -59,6 +59,6 @@ Three auth shapes are accepted in `config.json`, validated in `setupConnection()
 
 `email`/`password` is also still parsed for legacy reasons. Keep all three shapes working unless explicitly removing one.
 
-## Release artifacts
+## Releasing
 
-The repo currently contains a checked-in tarball (`homebridge-nest-4.6.10.tgz`) — that's the published release for reference, not something to edit. Bump `package.json` version through `npm version` and let `preversion` (which runs `lint`) run.
+Bump the version through `npm version <patch|minor|major>` — the `preversion` hook runs `lint`, and `prepublishOnly` runs it again before publish. Don't hand-edit the `version` field in `package.json`.
